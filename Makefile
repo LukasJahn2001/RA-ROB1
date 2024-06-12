@@ -1,5 +1,5 @@
 gem5 = ../gem5/build/RISCV/gem5.opt
-gcc = /opt/homebrew/Cellar/riscv-gnu-toolchain/main/bin/riscv64-unknown-elf-g++
+gcc = riscv64-linux-gnu-g++ --static
 pipeview = ../gem5/util/o3-pipeview.py
 
 all: compile run
