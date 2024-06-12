@@ -1,3 +1,4 @@
+#!python3
 # Copyright (c) 2015 Jason Power
 # All rights reserved.
 #
@@ -58,10 +59,7 @@ system.mem_ctrl.port = system.membus.mem_side_ports
 system.system_port = system.membus.cpu_side_ports
 
 thispath = os.path.dirname(os.path.realpath(__file__))
-binary = os.path.join(
-    thispath,
-    "./a.out",
-)
+binary = os.path.join(thispath, "./a.out",)
 
 system.workload = SEWorkload.init_compatible(binary)
 

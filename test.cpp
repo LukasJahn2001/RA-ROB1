@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main() {
-  printf("HELLO CE JMU\n");
-  return 0;
+    cout << "HELLO CE JMU!" << endl;
+    return 0;
 }
